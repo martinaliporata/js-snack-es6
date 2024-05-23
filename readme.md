@@ -8,6 +8,9 @@ nome dell'ospite (guestName),
 posto occupato (place),
 Generiamo e stampiamo in console la lista per i segnaposto.
 
+Creiamo un array di oggetti dal nome "Tavolo Vip" contenente i nomi dei partecipanti [ 'Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni',  'George Clooney', 'Amal Clooney', 'Fedez', 'Amadeus', 'Fiorello'] ognuno con tableName, guestName e place
+Stampiamo in console l'array
+
 
 SNACK 2
 Abbiamo un elenco degli studenti di una facoltà, identificati da id, Nome e somma totale dei loro voti di esame...
@@ -23,3 +26,7 @@ Id  Name                Grades
 196 Luigi Grimaldello       68
 102 Piero della Francesca   50
 120 Francesca da Polenta    84
+
+Creiamo un array di oggetti, ognuno dei quali avrà un id, un name (scritto in minuscolo) e un grade
+Con filter creiamo una lista degli studenti con media voti >70
+Con un altro filter creiamo una lista degli studenti con media voti >70 e un id >120
