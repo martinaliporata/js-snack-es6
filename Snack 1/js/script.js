@@ -15,56 +15,56 @@ const tavoloVip = [
     {
         tableName: 'tavoloVip',
         guestName: 'Brad Pitt',
-        place:
+        place: 1,
     },
     {
         tableName: 'tavoloVip',
         guestName: 'Johnny Depp',
-        place:
+        place: 2,
     },
     {
         tableName: 'tavoloVip',
         guestName:'Lady Gaga',
-        place:
+        place: 3,
     },
     {
         tableName: 'tavoloVip',
         guestName: 'Cristiano Ronaldo',
-        place:
+        place: 4,
     },
     {
         tableName: 'tavoloVip',
         guestName: ' Georgina Rodriguez',
-        place:
+        place: 5,
     },
     {
         tableName: 'tavoloVip',
         guestName:'Chiara Ferragni',
-        place:
+        place: 6,
     },
     {
         tableName: 'tavoloVip',
         guestName: 'George Clooney',
-        place:
+        place: 7,
     },
     {
         tableName: 'tavoloVip',
         guestName: 'Amal Clooney',
-        place:
+        place: 8,
     },
     {
         tableName: 'tavoloVip',
         guestName:'Fedez',
-        place:
+        place: 9,
     },
     {
         tableName: 'tavoloVip',
         guestName: 'Amadeus',
-        place:
+        place: 10,
     },
     {
         tableName: 'tavoloVip',
         guestName: 'Fiorello',
-        place:
+        place: 11,
     },
 ]
