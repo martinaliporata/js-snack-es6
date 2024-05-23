@@ -8,63 +8,23 @@
 // posto occupato (place),
 // Generiamo e stampiamo in console la lista per i segnaposto.
 
-// Creiamo un array di oggetti dal nome "Tavolo Vip" contenente i nomi dei partecipanti [ 'Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni',  'George Clooney', 'Amal Clooney', 'Fedez', 'Amadeus', 'Fiorello'] ognuno con tableName, guestName e place
+// Creiamo un array di oggetti dal nome "Tavolo Vip" contenente i nomi dei partecipanti 
 // Stampiamo in console l'array
 
-const tavoloVip = [
-    {
-        tableName: 'tavoloVip',
-        guestName: 'Brad Pitt',
-        place: 1,
-    },
-    {
-        tableName: 'tavoloVip',
-        guestName: 'Johnny Depp',
-        place: 2,
-    },
-    {
-        tableName: 'tavoloVip',
-        guestName:'Lady Gaga',
-        place: 3,
-    },
-    {
-        tableName: 'tavoloVip',
-        guestName: 'Cristiano Ronaldo',
-        place: 4,
-    },
-    {
-        tableName: 'tavoloVip',
-        guestName: ' Georgina Rodriguez',
-        place: 5,
-    },
-    {
-        tableName: 'tavoloVip',
-        guestName:'Chiara Ferragni',
-        place: 6,
-    },
-    {
-        tableName: 'tavoloVip',
-        guestName: 'George Clooney',
-        place: 7,
-    },
-    {
-        tableName: 'tavoloVip',
-        guestName: 'Amal Clooney',
-        place: 8,
-    },
-    {
-        tableName: 'tavoloVip',
-        guestName:'Fedez',
-        place: 9,
-    },
-    {
-        tableName: 'tavoloVip',
-        guestName: 'Amadeus',
-        place: 10,
-    },
-    {
-        tableName: 'tavoloVip',
-        guestName: 'Fiorello',
-        place: 11,
-    },
-]
+const tableName = "Tavolo Vip" 
+
+const guests = ['Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni', 'George Clooney', 'Amal Clooney', 'Fedez', 'Amadeus', 'Fiorello']
+
+const placeholder=[]
+
+for (let index = 0; index <guests.length; index++) {
+    const guestPlaceholder = {
+        tableName: tableName,
+        guestName: guests[index],
+        place: index+1,
+    }
+}
+
+placeholder.push(guestPlaceholder)
+
+console.log(placeholder)

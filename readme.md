@@ -8,8 +8,10 @@ nome dell'ospite (guestName),
 posto occupato (place),
 Generiamo e stampiamo in console la lista per i segnaposto.
 
-Creiamo un array di oggetti dal nome "Tavolo Vip" contenente i nomi dei partecipanti [ 'Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni',  'George Clooney', 'Amal Clooney', 'Fedez', 'Amadeus', 'Fiorello'] ognuno con tableName, guestName e place
-Stampiamo in console l'array
+Creiamo un array con i nomi dei partecipanti
+Con un ciclo for creiamo per ogni ospite una card contenente tableName, guestName e place
+Stampiamo in console 
+
 
 
 SNACK 2
