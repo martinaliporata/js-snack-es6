@@ -46,3 +46,16 @@ const studentiIdentificati = [
         grades: 84,
     },
 ]
+
+
+const mediaOver70 = studentiIdentificati.filter((singleStudent) => {
+    if(singleStudent.grades > 70)
+        return true
+})
+console.log(mediaOver70)
+
+const mediaOver70AndIdOver120 = studentiIdentificati.filter((singleStudent) => {
+    if(singleStudent.grades > 70 && singleStudent.id > 120)
+        return true
+})
+console.log(mediaOver70AndIdOver120)
