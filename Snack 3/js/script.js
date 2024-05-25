@@ -33,3 +33,6 @@ const arrayBici = [
         peso: 11
     }
 ]
+
+const {peso} = arrayBici
+console.log(peso)
