@@ -59,3 +59,10 @@ const arraySquadraCalcio = [
 
 let userInput = prompt("Please enter your name");
 arraySquadraCalcio.push = userInput;
+
+
+Object.keys(item).forEach(function(key) {
+    if (item[puntiFatti] === 0 && item[falliSubiti] === 0) {
+      item[key] = results[key];
+    }
+  })
