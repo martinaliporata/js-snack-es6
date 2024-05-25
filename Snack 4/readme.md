@@ -3,3 +3,7 @@ Creare un array di oggetti di squadre di calcio. Ogni squadra avrà diverse prop
 Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
 Generare numeri random al posto degli 0 nelle proprietà: punti fatti e falli subiti.
 Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
+
+Creo un array di quadra da calcio, ognuna delle quali avrà le seguenti proprietà (nome - da compilare, punti fatti e falli subiti - settati a 0).
+Al posto degli 0, generare un numero random con math.random
+Creiamo un nuovo array creando un destructuring contenente solo nome e falli subiti dalla squadra e stampiamo in console.
