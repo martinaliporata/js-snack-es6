@@ -48,14 +48,47 @@ const studentiIdentificati = [
 ]
 
 
-const mediaOver70 = studentiIdentificati.filter((singleStudent) => {
-    if(singleStudent.grades > 70)
-        return true
-})
-console.log(mediaOver70)
+// const mediaOver70 = studentiIdentificati.filter((singleStudent) => {
+//     if(singleStudent.grades > 70)
+//         return true
+// })
+// console.log(mediaOver70)
 
-const mediaOver70AndIdOver120 = studentiIdentificati.filter((singleStudent) => {
-    if(singleStudent.grades > 70 && singleStudent.id > 120)
-        return true
+// const mediaOver70AndIdOver120 = studentiIdentificati.filter((singleStudent) => {
+//     if(singleStudent.grades > 70 && singleStudent.id > 120)
+//         return true
+// })
+// console.log(mediaOver70AndIdOver120)
+
+// correzione
+// const listaNomi = []
+// const studentiBuoni = []
+// const studentiBuoniNuovi = []
+
+// students.foreach((student) => {
+//     listaNomi.push(student.name.toUpperCase());
+
+//     if (student.grades > 70) {
+//         studentiBuoni.push(student)
+//         if(student.id > 120) {
+//             studentiBuoniNuovi.push(student)
+//         }
+//     }
+// })
+
+
+// console.log(students)
+// console.log(listaNomi)
+// console.log(studentiBuoni)
+// console.log(studentiBuoniNuovi)
+
+
+// altra soluzione con map abbiamo associato a oghni elemento dell'array il suo nome
+
+const listaNomi = students.map((student) =>{
+    return student.name.toUpperCase()
 })
-console.log(mediaOver70AndIdOver120)
+
+// altra soluzione con filter
+const studentiBuoni = students.filter((student) => student.grades>70)
+const studentiBuoniNuovi = students.filter((student) => student.grades>70 && student.id>120)
